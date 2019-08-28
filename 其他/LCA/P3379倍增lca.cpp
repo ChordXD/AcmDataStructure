@@ -67,7 +67,7 @@ int main(){
     }
     dfs(s, 0);
     while (m--) {
-        scanf("%d%d", &x, &y);;
+        scanf("%d%d", &x, &y);
         printf("%d\n", LCA(x, y));
     }
     return 0;
